@@ -2,7 +2,7 @@
   <div id="app">
     <sidebar id="sidebar" />
     <div id="router">
-      <h1>Hello Vue3.0</h1>
+      <h1>Hello Vue3.0 !</h1>
       <router-view :key="$route.path" />
     </div>
   </div>
