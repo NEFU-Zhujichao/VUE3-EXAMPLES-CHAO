@@ -2,7 +2,7 @@
   <div>
     <ul>
       <li>
-        <router-link to="/Example01">Welcome</router-link>
+        <router-link to="/example01">Welcome</router-link>
       </li>
     </ul>
   </div>
