@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <sidebar id="sidebar" />
-    <div id="router">
-      <h1>Hello Vue3.0!</h1>
-      <router-view :key="$route.path" />
+    <div>
+      <h1>Hello Vue3.0</h1>
+      <sidebar id="sidebar" />
     </div>
+    <router-view id="router" :key="$route.path" />
   </div>
 </template>
 <script lang="ts">
@@ -30,5 +30,8 @@ export default defineComponent({
   border: 1px solid red;
   flex: 1;
   padding: 15px;
+}
+h1 {
+  border: 1px solid rgb(17, 0, 255);
 }
 </style>
