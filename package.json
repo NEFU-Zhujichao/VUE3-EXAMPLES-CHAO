@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-rc.5",
+    "axios": "^0.21.1",
+    "axios-mock-adapter": "^1.19.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",

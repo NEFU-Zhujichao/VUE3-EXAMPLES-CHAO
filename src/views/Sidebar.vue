@@ -28,6 +28,11 @@
       <li>
         <router-link to="/example04">vuex&mutation&action</router-link>
       </li>
+      <li>
+        <router-link to="/homework02">
+          Homework - 2
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>
